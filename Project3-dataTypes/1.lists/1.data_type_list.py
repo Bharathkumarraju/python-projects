@@ -48,8 +48,23 @@ except Exception as e:
 list1.append('rabbit')
 print(list1)
 
-print(dir(list1))
+# print(dir(list1))
 
 for i in dir(list1):
     if not i.startswith("__"):
         print(i)
+
+animals = ["dog", "cat"]
+animals1 = ["rabbit", "pig"]
+animals.extend(animals1)
+print(animals)
+
+
+list3 = ["mouse", "cat", "dog", "rabbit"]
+list4 = []
+
+for item in list3:
+    list4 = [item] + list4
+print(list4)
+
+

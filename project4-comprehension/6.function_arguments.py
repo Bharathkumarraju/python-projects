@@ -11,3 +11,11 @@ def display_info2(name, age):
 
 
 display_info2(age=38, name='Bharath')
+
+
+def subtract(first, second):
+    result = first - second
+    return result
+
+result = subtract(second = 20, first = 10)
+print(result)
